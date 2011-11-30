@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="vertical" creationComplete="init()">
+	<mx:Script>
+		<![CDATA[
+			import org.iotashan.classes.StringList;
+			
+			private var myList:String = "one,Two,3,four,four,f1v3,RABBIT,,Rabbit,RaBBiT";
+			
+			private const br:String = "\n";
+			
+			private function init():void {
+				outputWindow.text = "myList: " + myList + br + br;
+				outputWindow.text += "Examples:" + br;
+				outputWindow.text += "StringList.listAppend(myList,\"Chicken\"): " + StringList.listAppend(myList,"Chicken") + br;
+				outputWindow.text += "StringList.listContains(myList,\"R\"): " + StringList.listContains(myList,"R") + br;
+				outputWindow.text += "StringList.listContainsNoCase(myList,\"R\"): " + StringList.listContainsNoCase(myList,"R") + br;
+				outputWindow.text += "StringList.listChangeDelims(myList,\";\"): " + StringList.listChangeDelims(myList,";") + br;
+				outputWindow.text += "StringList.listDistinct(myList): " + StringList.listDistinct(myList) + br;
+				outputWindow.text += "StringList.listDeleteAt(myList,1): " + StringList.listDeleteAt(myList,1) + br;
+				outputWindow.text += "StringList.listDeleteEmptyElements(myList): " + StringList.listDeleteEmptyElements(myList) + br;
+				outputWindow.text += "StringList.listFillEmptyElements(myList,\"NULL\"): " + StringList.listFillEmptyElements(myList,"NULL") + br;
+				outputWindow.text += "StringList.listFind(myList,\"RABBIT\"): " + StringList.listFind(myList,"RABBIT") + br;
+				outputWindow.text += "StringList.listFindNoCase(myList,\"Rabbit\"): " + StringList.listFindNoCase(myList,"Rabbit") + br;
+				outputWindow.text += "StringList.listGetAt(myList,4): " + StringList.listGetAt(myList,4) + br;
+				outputWindow.text += "StringList.listInsertAt(myList,5,\"six\"): " + StringList.listInsertAt(myList,5,"six") + br;
+				outputWindow.text += "StringList.listLast(myList): " + StringList.listLast(myList) + br;
+				outputWindow.text += "StringList.listLen(myList): " + StringList.listLen(myList) + br;
+				outputWindow.text += "StringList.listMid(myList,2,4): " + StringList.listMid(myList,2,4) + br;
+				outputWindow.text += "StringList.listPrepend(myList,\"Zero\"): " + StringList.listPrepend(myList,"Zero") + br;
+				outputWindow.text += "StringList.listQualify(myList,\"\'\",\",\",StringList.STRINGS_ONLY): " + StringList.listQualify(myList,"'",",",StringList.STRINGS_ONLY) + br;
+				outputWindow.text += "StringList.listRest(myList): " + StringList.listRest(myList) + br;
+				outputWindow.text += "StringList.listReverse(myList): " + StringList.listReverse(myList) + br;
+				outputWindow.text += "StringList.listSetAt(myList,2,\"three\"): " + StringList.listSetAt(myList,2,"three") + br;
+				outputWindow.text += "StringList.listSort(myList): " + StringList.listSort(myList) + br;
+				outputWindow.text += "StringList.listToArray(myList): " + StringList.listToArray(myList).toString() + " (Well, this is an array output using toString(), anyway)" + br;
+				outputWindow.text += "StringList.listValueCount(myList,\"Rabbit\"): " + StringList.listValueCount(myList,"Rabbit") + br;
+				outputWindow.text += "StringList.listValueCountNoCase(myList,\"Rabbit\"): " + StringList.listValueCountNoCase(myList,"Rabbit") + br;
+				
+				// test cases not output
+				trace(StringList.listQualify(myList,"\""));
+				trace(StringList.listSort(myList,StringList.TEXT_NO_CASE));
+				trace(StringList.listSort(myList,StringList.TEXT,StringList.DECENDING));
+				trace(StringList.listSort(myList,StringList.TEXT_NO_CASE,StringList.DECENDING));
+				trace(StringList.listSort("5,8,2,9,3,4,1,7,0,6",StringList.NUMERIC));
+				trace(StringList.listSort("5,8,2,9,3,4,1,7,0,6",StringList.NUMERIC,StringList.DECENDING));
+			}
+		]]>
+	</mx:Script>
+	<mx:TextArea id="outputWindow" height="100%" width="100%"/>
+</mx:Application>

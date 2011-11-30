@@ -1,0 +1,1694 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../../../style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../../../print.css" type="text/css" media="print">
+<meta content="StringList,org.iotashan.classes.StringList,ALL_ELEMENTS,ASCENDING,DECENDING,NUMERIC,STRINGS_ONLY,TEXT,TEXT_NO_CASE,arrayToList,listAppend,listChangeDelims,listContains,listContainsNoCase,listDeleteAt,listDeleteEmptyElements,listDistinct,listFillEmptyElements,listFind,listFindNoCase,listFirst,listGetAt,listInsertAt,listLast,listLen,listMid,listPrepend,listQualify,listRest,listReverse,listSetAt,listSort,listToArray,listValueCount,listValueCountNoCase" name="keywords">
+<title>org.iotashan.classes.StringList</title>
+</head>
+<body>
+<script type="text/javascript" language="javascript" src="../../../asdoc.js"></script><script type="text/javascript" language="javascript" src="../../../cookies.js"></script><script type="text/javascript" language="javascript">
+<!--
+				asdocTitle = 'StringList - API Documentation';
+				var baseRef = '../../../';
+				window.onload = configPage;
+			--></script>
+<table style="display:none" id="titleTable" cellspacing="0" cellpadding="0" class="titleTable">
+<tr>
+<td align="left" class="titleTableTitle">StringList</td><td align="right" class="titleTableTopNav"><a onclick="loadClassListFrame('../../../all-classes.html')" href="../../../package-summary.html">All&nbsp;Packages</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../all-classes.html')" href="../../../class-summary.html">All&nbsp;Classes</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../../index-list.html')" href="../../../all-index-A.html">Index</a>&nbsp;|&nbsp;<a href="../../../index.html?org/iotashan/classes/StringList.html&amp;org/iotashan/classes/class-list.html" id="framesLink1">Frames</a><a onclick="parent.location=document.location" href="" style="display:none" id="noFramesLink1">No&nbsp;Frames</a></td><td rowspan="3" align="right" class="titleTableLogo"><img alt="Adobe Logo" title="Adobe Logo" class="logoImage" src="../../../images/logo.jpg"></td>
+</tr>
+<tr class="titleTableRow2">
+<td align="left" id="subTitle" class="titleTableSubTitle">Class&nbsp;StringList</td><td align="right" id="subNav" class="titleTableSubNav"><a href="#methodSummary">Methods</a>&nbsp;| <a href="#constantSummary">Constants</a></td>
+</tr>
+<tr class="titleTableRow3">
+<td colspan="2">&nbsp;</td>
+</tr>
+</table>
+<script type="text/javascript" language="javascript">
+<!--
+if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("Class StringList"); titleBar_setSubNav(true,false,false,false,false,false,true,false,false,false,false,false,false,false);}
+--></script>
+<div class="MainContent">
+<table cellspacing="0" cellpadding="0" class="classHeaderTable">
+<tr>
+<td class="classHeaderTableLabel">Package</td><td><a onclick="javascript:loadClassListFrame('class-list.html')" href="package-detail.html">org.iotashan.classes</a></td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Class</td><td class="classSignature">public class StringList</td>
+</tr>
+</table>
+<p></p>
+  List utility methods. Note that unlike ColdFusion, ActionScript 
+  (and therefore these methods') indexes start at 0.
+  <p></p>
+<br>
+<hr>
+</div>
+<a name="methodSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Methods</div>
+<table id="summaryTableMethod" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#StringList()">StringList</a>()</div>
+<div class="summaryTableDescription">
+   Constructor method
+   </div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#arrayToList()">arrayToList</a>(array:Array, delimiters:String = ","):String</div>
+<div class="summaryTableDescription">[static]
+   Converts an array of strings to a list.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listAppend()">listAppend</a>(list:String, value:String, delimiters:String = ","):String</div>
+<div class="summaryTableDescription">[static]
+   Appends a value to the end of the list.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listChangeDelims()">listChangeDelims</a>(list:String, newDelimiter:String, delimiters:String = ","):String</div>
+<div class="summaryTableDescription">[static]
+   Changes delimiters of the list
+   
+   </div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listContains()">listContains</a>(list:String, substr:String, delimiters:String = ","):String</div>
+<div class="summaryTableDescription">[static]
+   Returns a list of the indexes where the substring is found.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listContainsNoCase()">listContainsNoCase</a>(list:String, substr:String, delimiters:String = ","):String</div>
+<div class="summaryTableDescription">[static]
+   Returns a list of the indexes where the case-insenitive substring is found.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listDeleteAt()">listDeleteAt</a>(list:String, index:Number, delimiters:String = ","):String</div>
+<div class="summaryTableDescription">[static]
+   Deletes a value at the specified index.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listDeleteEmptyElements()">listDeleteEmptyElements</a>(list:String, delimiters:String = ","):String</div>
+<div class="summaryTableDescription">[static]
+   Returns a list with empty elements removed.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listDistinct()">listDistinct</a>(list:String, delimiters:String = ","):String</div>
+<div class="summaryTableDescription">[static]
+   Returns all unique elements in a list.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listFillEmptyElements()">listFillEmptyElements</a>(list:String, value:String, delimiters:String = ","):String</div>
+<div class="summaryTableDescription">[static]
+   Returns a list with empty elements replaced with a value.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listFind()">listFind</a>(list:String, value:String, delimiters:String = ","):Number</div>
+<div class="summaryTableDescription">[static]
+   Returns the index of the case sensitive value in the list.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listFindNoCase()">listFindNoCase</a>(list:String, value:String, delimiters:String = ","):Number</div>
+<div class="summaryTableDescription">[static]
+   Returns the index of the case insensitive value in the list.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listFirst()">listFirst</a>(list:String, delimiters:String = ","):String</div>
+<div class="summaryTableDescription">[static]
+   Returns the first value in the list.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listGetAt()">listGetAt</a>(list:String, index:Number, delimiters:String = ","):String</div>
+<div class="summaryTableDescription">[static]
+   Returns the value at the specified index.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listInsertAt()">listInsertAt</a>(list:String, index:Number, value:String, delimiters:String = ","):String</div>
+<div class="summaryTableDescription">[static]
+   Inserts a value at the specified index.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listLast()">listLast</a>(list:String, delimiters:String = ","):String</div>
+<div class="summaryTableDescription">[static]
+   Returns the last value of the list.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listLen()">listLen</a>(list:String, delimiters:String = ","):Number</div>
+<div class="summaryTableDescription">[static]
+   Returns the number of items in the list.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listMid()">listMid</a>(list:String, start:Number, elements:Number, delimiters:String = ","):String</div>
+<div class="summaryTableDescription">[static]
+   Returns a list of elements from the index specified through the number of elements specified.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listPrepend()">listPrepend</a>(list:String, value:String, delimiters:String = ","):String</div>
+<div class="summaryTableDescription">[static]
+   Adds a value to the beginning of the list.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listQualify()">listQualify</a>(list:String, qualifier:String, delimiters:String = ",", elements:String = "all"):String</div>
+<div class="summaryTableDescription">[static]
+   Adds a qualifiying string to either all elements, or non-numeric elements.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listRest()">listRest</a>(list:String, delimiters:String = ","):String</div>
+<div class="summaryTableDescription">[static]
+   Gets a list, without its first element.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listReverse()">listReverse</a>(list:String, delimiters:String = ","):String</div>
+<div class="summaryTableDescription">[static]
+   Returns a list of elements in reverse order.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listSetAt()">listSetAt</a>(list:String, index:Number, value:String, delimiters:String = ","):String</div>
+<div class="summaryTableDescription">[static]
+   Sets a value at the specified index.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listSort()">listSort</a>(list:String, sortType:String, sortOrder:String, delimiters:String = ","):String</div>
+<div class="summaryTableDescription">[static]
+   Sorts list elements according to a sort type and sort order.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listToArray()">listToArray</a>(list:String, delimiters:String = ","):Array</div>
+<div class="summaryTableDescription">[static]
+   Converts the specified list to an array.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listValueCount()">listValueCount</a>(list:String, value:String, delimiters:String = ","):Number</div>
+<div class="summaryTableDescription">[static]
+   Returns the number of times a value is found in the list.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#listValueCountNoCase()">listValueCountNoCase</a>(list:String, value:String, delimiters:String = ","):Number</div>
+<div class="summaryTableDescription">[static]
+   Returns the number of times a case-insenstive value is found in the list.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+</table>
+</div>
+<a name="constantSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Constants</div>
+<table id="summaryTableConstant" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Constant</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#ALL_ELEMENTS">ALL_ELEMENTS</a> : String = "all"<div class="summaryTableDescription">[static]
+   The <code>StringList.STRINGS_ONLY</code> constant 
+   defines the value of the <code>elements</code> property of the <code>listQualify</code> 
+   method.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#ASCENDING">ASCENDING</a> : String = "asc"<div class="summaryTableDescription">[static]
+   The <code>StringList.ASCENDING</code> constant 
+   defines the value of the <code>sortOrder</code> property of the <code>listSort</code> 
+   method.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#DECENDING">DECENDING</a> : String = "dsc"<div class="summaryTableDescription">[static]
+   The <code>StringList.DECENDING</code> constant 
+   defines the value of the <code>sortOrder</code> property of the <code>listSort</code> 
+   method.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#NUMERIC">NUMERIC</a> : String = "numeric"<div class="summaryTableDescription">[static]
+   The <code>StringList.NUMERIC</code> constant 
+   defines the value of the <code>sortType</code> property of the <code>listSort</code> 
+   method.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#STRINGS_ONLY">STRINGS_ONLY</a> : String = "char"<div class="summaryTableDescription">[static]
+   The <code>StringList.STRINGS_ONLY</code> constant 
+   defines the value of the <code>elements</code> property of the <code>listQualify</code> 
+   method.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#TEXT">TEXT</a> : String = "text"<div class="summaryTableDescription">[static]
+   The <code>StringList.TEXT</code> constant 
+   defines the value of the <code>sortType</code> property of the <code>listSort</code> 
+   method.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#TEXT_NO_CASE">TEXT_NO_CASE</a> : String = "textnocase"<div class="summaryTableDescription">[static]
+   The <code>StringList.TEXT_NO_CASE</code> constant 
+   defines the value of the <code>sortType</code> property of the <code>listSort</code> 
+   method.</div>
+</td><td class="summaryTableOwnerCol">StringList</td>
+</tr>
+</table>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+showHideInherited();
+--></script>
+<div class="MainContent">
+<a name="constructorDetail"></a>
+<div class="detailSectionHeader">Constructor detail</div>
+<a name="StringList()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">StringList</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">constructor</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function StringList()</code><p>
+   Constructor method
+   </p></div>
+<a name="methodDetail"></a>
+<div class="detailSectionHeader">Method detail</div>
+<a name="arrayToList()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">arrayToList</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function arrayToList(array:Array, delimiters:String = ","):String</code><p>
+   Converts an array of strings to a list.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">array</span>:Array</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listToArray()" target="">listToArray()</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.arrayToList(["one","two","three"]); // returns "one,two,three"</pre></div>
+   <p></p>
+</div>
+<a name="listAppend()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listAppend</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listAppend(list:String, value:String, delimiters:String = ","):String</code><p>
+   Appends a value to the end of the list.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">value</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listPrepend()" target="">listPrepend()</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listAppend("one,two,three","go!"); // returns "one,two,three,go!"</pre></div>
+   <p></p>
+</div>
+<a name="listChangeDelims()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listChangeDelims</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listChangeDelims(list:String, newDelimiter:String, delimiters:String = ","):String</code><p>
+   Changes delimiters of the list
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">newDelimiter</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listChangeDelims("one,two,three","|"); // returns "one|two|three"</pre></div>
+   <p></p>
+</div>
+<a name="listContains()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listContains</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listContains(list:String, substr:String, delimiters:String = ","):String</code><p>
+   Returns a list of the indexes where the substring is found. 
+   If there are no matches, returns -1.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">substr</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listContainsNoCase()" target="">listContainsNoCase()</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listContains("one,two,three,TWO,two,Two","two"); // returns "1,4"</pre></div>
+   <p></p>
+</div>
+<a name="listContainsNoCase()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listContainsNoCase</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listContainsNoCase(list:String, substr:String, delimiters:String = ","):String</code><p>
+   Returns a list of the indexes where the case-insenitive substring is found. 
+   If there are no matches, returns -1.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">substr</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listContainsNoCase()" target="">listContainsNoCase()</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listContains("one,two,three,TWO,two,Two","two"); // returns "1,3,4,5"</pre></div>
+   <p></p>
+</div>
+<a name="listDeleteAt()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listDeleteAt</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listDeleteAt(list:String, index:Number, delimiters:String = ","):String</code><p>
+   Deletes a value at the specified index.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">index</span>:Number</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listInsertAt()" target="">listInsertAt()</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listDeleteAt("one,two,three",1); // returns "one,three"</pre></div>
+   <p></p>
+</div>
+<a name="listDeleteEmptyElements()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listDeleteEmptyElements</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listDeleteEmptyElements(list:String, delimiters:String = ","):String</code><p>
+   Returns a list with empty elements removed.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listFillEmptyElements()" target="">listFillEmptyElements()</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listDeleteEmptyElements("one,two,,four,,,seven"); // returns "one,two,four,seven"</pre></div>
+   <p></p>
+</div>
+<a name="listDistinct()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listDistinct</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listDistinct(list:String, delimiters:String = ","):String</code><p>
+   Returns all unique elements in a list.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listDistinct("one,two,three,TWO,two,Two"); // returns "one,two,three,TWO,Two"</pre></div>
+   <p></p>
+</div>
+<a name="listFillEmptyElements()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listFillEmptyElements</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listFillEmptyElements(list:String, value:String, delimiters:String = ","):String</code><p>
+   Returns a list with empty elements replaced with a value.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">value</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listFillEmptyElements()" target="">listFillEmptyElements()</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listFillEmptyElements("one,two,,four,,,seven","NULL"); // returns "one,two,NULL,four,NULL,NULL,seven"</pre></div>
+   <p></p>
+</div>
+<a name="listFind()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listFind</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listFind(list:String, value:String, delimiters:String = ","):Number</code><p>
+   Returns the index of the case sensitive value in the list. Returns -1 if not found.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">value</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>Number</code></td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listFindNoCase()" target="">listFindNoCase()</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listFind("one,two,three","two"); // returns 1</pre></div>
+   <p></p>
+</div>
+<a name="listFindNoCase()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listFindNoCase</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listFindNoCase(list:String, value:String, delimiters:String = ","):Number</code><p>
+   Returns the index of the case insensitive value in the list. Returns -1 if not found.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">value</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>Number</code></td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listFind()" target="">listFind()</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listFind("one,two,three","TwO"); // returns 1</pre></div>
+   <p></p>
+</div>
+<a name="listFirst()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listFirst</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listFirst(list:String, delimiters:String = ","):String</code><p>
+   Returns the first value in the list.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listLast()" target="">listLast()</a>
+<br>
+<a href="../classes/StringList.html#listRest()" target="">listRest()</a>
+<br>
+<a href="../classes/StringList.html#listMid()" target="">listMid()</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listFirst("one,two,three"); // returns "one"</pre></div>
+   <p></p>
+</div>
+<a name="listGetAt()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listGetAt</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listGetAt(list:String, index:Number, delimiters:String = ","):String</code><p>
+   Returns the value at the specified index.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">index</span>:Number</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listGetAt("one,two,three",2); // returns "three"</pre></div>
+   <p></p>
+</div>
+<a name="listInsertAt()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listInsertAt</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listInsertAt(list:String, index:Number, value:String, delimiters:String = ","):String</code><p>
+   Inserts a value at the specified index.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">index</span>:Number</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">value</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listInsertAt("one,two,three","two and a half",2); // returns "one,two,two and a half,three"</pre></div>
+   <p></p>listDeleteAt()
+   <p></p>
+</div>
+<a name="listLast()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listLast</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listLast(list:String, delimiters:String = ","):String</code><p>
+   Returns the last value of the list.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listFirst()" target="">listFirst()</a>
+<br>
+<a href="../classes/StringList.html#listRest()" target="">listRest()</a>
+<br>
+<a href="../classes/StringList.html#listMid()" target="">listMid()</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listLast("one,two,three"); // returns "three"</pre></div>
+   <p></p>
+</div>
+<a name="listLen()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listLen</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listLen(list:String, delimiters:String = ","):Number</code><p>
+   Returns the number of items in the list.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>Number</code></td>
+</tr>
+</table>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listLen("one,two,three"); // returns 3</pre></div>
+   <p></p>
+</div>
+<a name="listMid()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listMid</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listMid(list:String, start:Number, elements:Number, delimiters:String = ","):String</code><p>
+   Returns a list of elements from the index specified through the number of elements specified.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">start</span>:Number</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">elements</span>:Number</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listFirst()" target="">listFirst()</a>
+<br>
+<a href="../classes/StringList.html#listLast()" target="">listLast()</a>
+<br>
+<a href="../classes/StringList.html#listRest()" target="">listRest()</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listMid("one,two,three,four",1,2); // returns "two,three"</pre></div>
+   <p></p>
+</div>
+<a name="listPrepend()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listPrepend</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listPrepend(list:String, value:String, delimiters:String = ","):String</code><p>
+   Adds a value to the beginning of the list.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">value</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listAppend()" target="">listAppend()</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listPrepend("one,two,three","ready"); // returns "ready,one,two,three"</pre></div>
+   <p></p>
+</div>
+<a name="listQualify()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listQualify</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listQualify(list:String, qualifier:String, delimiters:String = ",", elements:String = "all"):String</code><p>
+   Adds a qualifiying string to either all elements, or non-numeric elements.
+   Useful for putting quotes around strings, like if you are building
+   a CSV file.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code> &mdash; Accepts the constants StringList.STRINGS_ONLY or StringList.ALL_ELEMENTS
+   
+   </td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">qualifier</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">elements</span>:String</code> (default = "<code>all</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="StringList.html#ALL_ELEMENTS" target="">StringList.ALL_ELEMENTS</a>
+<br>
+<a href="StringList.html#STRINGS_ONLY" target="">StringList.STRINGS_ONLY</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listQualify("one,2,three,four","'",StringList.STRINGS_ONLY); // returns "'one',2,'three','four'"</pre></div>
+   
+   <p></p>
+</div>
+<a name="listRest()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listRest</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listRest(list:String, delimiters:String = ","):String</code><p>
+   Gets a list, without its first element.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listFirst()" target="">listFirst()</a>
+<br>
+<a href="../classes/StringList.html#listLast()" target="">listLast()</a>
+<br>
+<a href="../classes/StringList.html#listMid()" target="">listMid()</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listRest("one,two,three"); // returns "two,three"</pre></div>
+   <p></p>
+</div>
+<a name="listReverse()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listReverse</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listReverse(list:String, delimiters:String = ","):String</code><p>
+   Returns a list of elements in reverse order.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listReverse("one,two,three"); // returns "three,two,one"</pre></div>
+   <p></p>
+</div>
+<a name="listSetAt()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listSetAt</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listSetAt(list:String, index:Number, value:String, delimiters:String = ","):String</code><p>
+   Sets a value at the specified index.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">index</span>:Number</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">value</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listSetAt("one,two,three","2",1); // returns "one,2,three"</pre></div>
+   <p></p>
+</div>
+<a name="listSort()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listSort</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listSort(list:String, sortType:String, sortOrder:String, delimiters:String = ","):String</code><p>
+   Sorts list elements according to a sort type and sort order.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">sortType</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">sortOrder</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>String</code></td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listFillEmptyElements()" target="">listFillEmptyElements()</a>
+<br>
+<a href="StringList.html#TEXT" target="">StringList.TEXT</a>
+<br>
+<a href="StringList.html#TEXT_NO_CASE" target="">StringList.TEXT_NO_CASE</a>
+<br>
+<a href="StringList.html#NUMERIC" target="">StringList.NUMERIC</a>
+<br>
+<a href="StringList.html#ASCENDING" target="">StringList.ASCENDING</a>
+<br>
+<a href="StringList.html#DeSCENDING" target="">StringList.DeSCENDING</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listSort("beta,alpha,delta,gamma"); // returns "alpha,beta,delta,gamma"</pre></div>
+   <p></p>
+</div>
+<a name="listToArray()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listToArray</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listToArray(list:String, delimiters:String = ","):Array</code><p>
+   Converts the specified list to an array.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>Array</code></td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#arrayToList()" target="">arrayToList()</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listToArray("one,two,three"); // returns array ["one","two","three"]</pre></div>
+   <p></p>
+</div>
+<a name="listValueCount()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listValueCount</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listValueCount(list:String, value:String, delimiters:String = ","):Number</code><p>
+   Returns the number of times a value is found in the list.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">value</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>Number</code></td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listValueCountNoCase()" target="">listValueCountNoCase()</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listValueCount("one,two,three,TWO,two,Two","two"); // returns 2</pre></div>
+   <p></p>
+</div>
+<a name="listValueCountNoCase()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">listValueCountNoCase</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function listValueCountNoCase(list:String, value:String, delimiters:String = ","):Number</code><p>
+   Returns the number of times a case-insenstive value is found in the list.
+   
+   </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">list</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">value</span>:String</code></td>
+</tr>
+<tr>
+<td class="paramSpacer">&nbsp;</td>
+</tr>
+<tr>
+<td width="20px"></td><td><code><span class="label">delimiters</span>:String</code> (default = "<code>,</code>")<code></code></td>
+</tr>
+</table>
+<p></p>
+<span class="label">Returns</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20"></td><td><code>Number</code></td>
+</tr>
+</table>
+<p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listValueCount()" target="">listValueCount()</a>
+</div>
+<br>
+<span class="label">Example</span>
+<br><div class='listing'><pre>StringList.listValueCountNoCase("one,two,three,TWO,two,Two","two"); // returns 4</pre></div>
+   <p></p>
+</div>
+<a name="constantDetail"></a>
+<div class="detailSectionHeader">Constant detail</div>
+<a name="ALL_ELEMENTS"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">ALL_ELEMENTS</td><td class="detailHeaderType">constant</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const ALL_ELEMENTS:String = "all"</code><p>
+   The <code>StringList.STRINGS_ONLY</code> constant 
+   defines the value of the <code>elements</code> property of the <code>listQualify</code> 
+   method. This will add the qualifier to all elements in the list.
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listQualify()" target="">listQualify()</a>
+<br>
+<a href="StringList.html#STRINGS_ONLY" target="">StringList.STRINGS_ONLY</a>
+</div>
+</div>
+<a name="ASCENDING"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">ASCENDING</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const ASCENDING:String = "asc"</code><p>
+   The <code>StringList.ASCENDING</code> constant 
+   defines the value of the <code>sortOrder</code> property of the <code>listSort</code> 
+   method. Ascending sort order.<br>
+   - aabzABZ or aAaBbBzzZ, depending on value of sort_type, for letters<br>
+   - from smaller to larger, for numbers
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listSort()" target="">listSort()</a>
+<br>
+<a href="StringList.html#DECENDING" target="">StringList.DECENDING</a>
+</div>
+</div>
+<a name="DECENDING"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">DECENDING</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const DECENDING:String = "dsc"</code><p>
+   The <code>StringList.DECENDING</code> constant 
+   defines the value of the <code>sortOrder</code> property of the <code>listSort</code> 
+   method. Decending sort order.<br>
+   - ZBAzbaa or ZzzBbBaAa, depending on value of sort_type, for letters<br>
+   - from larger to smaller, for numbers
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listSort()" target="">listSort()</a>
+<br>
+<a href="StringList.html#ASCENDING" target="">StringList.ASCENDING</a>
+</div>
+</div>
+<a name="NUMERIC"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">NUMERIC</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const NUMERIC:String = "numeric"</code><p>
+   The <code>StringList.NUMERIC</code> constant 
+   defines the value of the <code>sortType</code> property of the <code>listSort</code> 
+   method. Sorts numbers.
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listSort()" target="">listSort()</a>
+<br>
+<a href="StringList.html#TEXT" target="">StringList.TEXT</a>
+<br>
+<a href="StringList.html#TEXT_NO_CASE" target="">StringList.TEXT_NO_CASE</a>
+</div>
+</div>
+<a name="STRINGS_ONLY"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">STRINGS_ONLY</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const STRINGS_ONLY:String = "char"</code><p>
+   The <code>StringList.STRINGS_ONLY</code> constant 
+   defines the value of the <code>elements</code> property of the <code>listQualify</code> 
+   method. This will only add the qualifer to elements that are strings.
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listQualify()" target="">listQualify()</a>
+<br>
+<a href="StringList.html#ALL_ELEMENTS" target="">StringList.ALL_ELEMENTS</a>
+</div>
+</div>
+<a name="TEXT"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">TEXT</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const TEXT:String = "text"</code><p>
+   The <code>StringList.TEXT</code> constant 
+   defines the value of the <code>sortType</code> property of the <code>listSort</code> 
+   method. Sorts text alphabetically, taking case into account (also known as case sensitive). 
+   All letters of one case precede the first letter of the other case:<br>
+   - abzABZ, if sortOrder = StringList.ASCENDING (ascending sort)<br>
+   - ZBAzbaa, if sortOrder = "desc" (descending sort)
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listSort()" target="">listSort()</a>
+<br>
+<a href="StringList.html#TEXT_NO_CASE" target="">StringList.TEXT_NO_CASE</a>
+<br>
+<a href="StringList.html#NUMERIC" target="">StringList.NUMERIC</a>
+</div>
+</div>
+<a name="TEXT_NO_CASE"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">TEXT_NO_CASE</td><td class="detailHeaderType">constant</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static const TEXT_NO_CASE:String = "textnocase"</code><p>
+   The <code>StringList.TEXT_NO_CASE</code> constant 
+   defines the value of the <code>sortType</code> property of the <code>listSort</code> 
+   method. Sorts text alphabetically, without regard to case (also known as case-insensitive). 
+   A letter in varying cases precedes the next letter:<br>
+   - aAaBbBzzZ, in an ascending sort; preserves original intra-letter order<br>
+   - ZzBbBaAa, in a descending sort; reverses original intra-letter order
+   
+   </p><p>
+<span class="label">See also</span>
+</p>
+<div class="seeAlso">
+<a href="../classes/StringList.html#listSort()" target="">listSort()</a>
+<br>
+<a href="StringList.html#TEXT" target="">StringList.TEXT</a>
+<br>
+<a href="StringList.html#NUMERIC" target="">StringList.NUMERIC</a>
+</div>
+</div>
+<br>
+<br>
+<hr>
+<br>
+<p></p>
+<center class="copyright"> 
+</center>
+</div>
+</body>
+</html>
+<!-- -->
